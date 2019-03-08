@@ -1,0 +1,101 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main()
+{	int ticketPrice;
+    int ticketSold;
+    int box;
+    int sideline;
+    int genadmission;
+    int premium;
+	
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	int f;
+	int g;
+	int h;
+	int i;
+	int j;
+	int k;
+	int l;
+	int m;
+	int n;
+	int o;
+	int p;
+	a = 5750;
+	b = 28000;
+	c = 35750;
+	d = 18750; 
+	e = 750;
+	f = 280;
+	g = 5750;
+	h = 18750;
+	i = 200;
+	j = 400;
+	k = 3350;
+	l = 1890;
+	m = 450;
+	n = 2980;
+	o = 2250;
+	p = 120;
+	box = 250;
+	sideline = 100;
+	premium = 50;
+	genadmission = 25;
+
+	cout << "Ticket Price" << endl; 
+	cout << "box :" << ' ' 
+    << "250" << endl;
+	cout << "sideline :" << ' ' 
+    << "100" << endl;
+	cout << "premium :" << ' ' 
+    << "50" << endl;
+	cout << "genadmission" << ' ' 
+    << "25" << endl;
+
+	cout << "Game 1" << endl;
+	cout << "Number of Tickets Sold" << endl;
+	cout << "box =" <<  ' ' << "5750" << endl;
+	cout << "sideline =" <<  ' ' << "28000" << endl;
+	cout << "premium =" <<  ' ' << "35750" << endl;
+	cout << "genadmission =" <<  ' ' << "18750" << endl;
+	cout << "Number of tickets sold : " << a + b + c + d << endl;
+  cout << "Total sale ammount : " << (box * a) + (sideline * b) + (premium * c) + (genadmission * d) << endl;
+    
+	cout << "Game 2" << endl;
+	cout << "Number of Tickets Sold" << endl;
+	cout << "box =" <<  ' ' << e << endl;
+	cout << "sideline =" <<  ' ' << f << endl;
+	cout << "premium =" <<  ' ' << g << endl;
+	cout << "genadmission =" <<  ' ' << h << endl;
+	cout << "Number of tickets sold : " << e + f + g + h << endl;
+  cout << "Total sale ammount : " << (box * e) + (sideline * f) + (premium * g) + (genadmission * h) << endl;
+	
+	cout << "Game 3" << endl;
+	cout << "Number of Tickets Sold" << endl;
+	cout << "box =" <<  ' ' << i << endl;
+	cout << "sideline =" <<  ' ' << j << endl;
+	cout << "premium =" <<  ' ' << k << endl;
+	cout << "genadmission =" <<  ' ' << l << endl;
+	cout << "Number of tickets sold : " << i + j + k + l << endl;
+  cout << "Total sale ammount : " << (box * i) + (sideline * j) + (premium * k) + (genadmission * l) << endl;
+
+	cout << "Game 4" << endl;
+	cout << "Number of Tickets Sold" << endl;
+	cout << "box =" <<  ' ' << m << endl;
+	cout << "sideline =" <<  ' ' << n << endl;
+	cout << "premium =" <<  ' ' << o << endl;
+	cout << "genadmission =" <<  ' ' << p << endl;
+	cout << "Number of tickets sold : " << m + n + o + p << endl;
+  cout << "Total sale ammount : " << (box * m) + (sideline * n) + (premium * o) + (genadmission * p) << endl;
+
+
+	_getch();
+	return 0;
+}
